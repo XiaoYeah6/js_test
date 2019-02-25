@@ -8,15 +8,11 @@
 </head>
 <body>
     <script>
-        var sum = 0;
-        for(var a = 1;a<=10;a++){
-            var sub = 1;
-            for(a;a>0;a--){
-                sub *= a;
+        for(var x=100;x<=999;x++){
+            if(x%4==2 && x%7==3 && x%9==5){
+                document.write(x + ' ');
             }
-            sum += sub;
         }
-        document.write(sum);
     </script>
 </body>
 </html>
