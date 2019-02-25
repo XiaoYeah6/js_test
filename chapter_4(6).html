@@ -9,13 +9,13 @@
 <body>
     <script>
         for(var a = 1;a<=5;a++){
-            for(var blk = 5-a;blk>0;blk--){
-                document.write(' ');
+            for(var blk = 1;blk<=5-a;blk++){
+                document.write('&nbsp;');
             }
-            for(var smb = a;smb<0;smb--){
-                document.write('*' + ' ');
+            for(var smb = a;smb>0;smb--){
+                document.write('*' + '&nbsp;');
             }
-            document.write();
+            document.write('<br>');
         }
     </script>
 </body>
